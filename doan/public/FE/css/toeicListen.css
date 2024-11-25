@@ -1,0 +1,46 @@
+  /* CSS cho nút dropdown */
+  .dropdown-container {
+
+    max-width: 1200px;
+    margin: 10px auto;
+}
+.TOEIC-Listening{
+    max-width: 1200px;
+    margin: 10px auto;
+}
+.dropdown-button {
+    padding: 10px 20px;
+    background-color:#cfe2ff;
+    color: #212529;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+}
+
+
+/* CSS cho nội dung dropdown mặc định ẩn */
+.dropdown-content {
+    display: none; /* Mặc định ẩn */
+    grid-template-columns: repeat(3, 1fr); /* Chia thành 3 cột */
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* CSS cho các nút bài tập */
+.exercise-button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.exercise-button:hover {
+    background-color: #ddd;
+}
