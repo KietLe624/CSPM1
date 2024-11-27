@@ -33,6 +33,8 @@ Route::get('/short_story', [ExerciesController::class, 'short_story'])->name('pa
 use App\Http\Controllers\AdminAudioController;
 
 // Trang quản lý Audios
-Route::prefix('admin')->group(function () {
-    Route::resource('audios', AdminAudioController::class);
+Route::get('/admin/index', [AdminAudioController::class, 'index'])->name('page.admin.index');
+
+Route::prefix('/admin/')->group(function () {
+    Route::resource('', AdminAudioController::class);
 });
