@@ -7,7 +7,7 @@
   <title>My Website</title>
   <link rel="shortcut icon" href="asset/dailydictation.svg" type="image/x-icon">
   <!-- Liên kết Font Awesome -->
-  <link rel="stylesheet" href="FE/css/style.css" />
+  <link rel="stylesheet" href="FE/style.css" />
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
@@ -34,10 +34,10 @@
       </div>
       <div class="navlink">
         <ul>
-          <li><a href="/exercises">All exercises</a></li>
-          <li><a href="#">Top users</a></li>
-          <li><a href="#">Video lessons</a></li>
-          <li><a href="#">Learn Together</a></li>
+          <li><a href="#">All exercises</a></li>
+          <li><a href="">Top users</a></li>
+          <li><a href="">Video lessons</a></li>
+          <li><a href="">Learn Together</a></li>
           <li>
             <a href="">Help me <i class="fas fa-truck-medical"></i></a>
           </li>
@@ -49,7 +49,7 @@
       <div class="nav-button">
         <ul>
           <li><a href="#">Login</a></li>
-          <li><a href="#">Register</a></li>
+          <li><a href="">Register</a></li>
         </ul>
       </div>
     </div>
@@ -64,7 +64,7 @@
     <div class="mainft">
       <div class="mainfooter">
         <div class="flex-colums">
-          <a href="page.home">Home</a>
+          <a href="#">Home</a>
           <a href="#">All exercises</a>
           <a href="#">English expressions</a>
           <a href="#">English pronunciation</a>
