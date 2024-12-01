@@ -13,7 +13,33 @@
                     <span class="card-more">•••</span>
                 </div>
             </div>
+            
         </div>
+
+        <div class="row1">
+            <div class="card">
+                <img src="asset/anh2.jpg" alt="Short Stories" class="card-img">
+                <div class="card-content">
+                    <a href="Conversations.html" class="card-title">Conversations</a>
+                    <p class="card-level">Level: <span class="level">Medium</span></p>
+                    <p class="card-lessons">289 lessons</p>
+                    <span class="card-more">•••</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="row1">
+            <div class="card">
+                <img src="asset/anh3.jpg" alt="Short Stories" class="card-img">
+                <div class="card-content">
+                    <a href="toeicListen.html   " class="card-title">TOEIC Listening</a>
+                    <p class="card-level">Level: <span class="level">Medium</span></p>
+                    <p class="card-lessons">289 lessons</p>
+                    <span class="card-more">•••</span>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="flex-row2">
         <div class="row1">
@@ -27,6 +53,30 @@
                 </div>
             </div>
         </div>
+        <div class="row1">
+            <div class="card">
+                <img src="asset/anh5.jpg" alt="Short Stories" class="card-img">
+                <div class="card-content">
+                    <a href="#" class="card-title">YouTube</a>
+                    <p class="card-level">Level: <span class="level">Medium</span></p>
+                    <p class="card-lessons">289 lessons</p>
+                    <span class="card-more">•••</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="row1">
+            <div class="card">
+                <img src="asset/anh6.jpeg" alt="Short Stories" class="card-img">
+                <div class="card-content">
+                    <a href="#" class="card-title">TED & TED-Ed</a>
+                    <p class="card-level">Level: <span class="level">Medium</span></p>
+                    <p class="card-lessons">289 lessons</p>
+                    <span class="card-more">•••</span>
+                </div>
+            </div>
+
+        </div>
     </div>
     <div class="flex-row2">
         <div class="row1">
@@ -39,6 +89,31 @@
                     <span class="card-more">•••</span>
                 </div>
             </div>
+
+        </div>
+        <div class="row1">
+            <div class="card">
+                <img src="asset/anh8.jpeg" alt="Short Stories" class="card-img">
+                <div class="card-content">
+                    <a href="#" class="card-title">IPA</a>
+                    <p class="card-level">Level: <span class="level">Medium</span></p>
+                    <p class="card-lessons">289 lessons</p>
+                    <span class="card-more">•••</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="row1">
+            <div class="card">
+                <img src="asset/anh9.jpg" alt="Short Stories" class="card-img">
+                <div class="card-content">
+                    <a href="#" class="card-title">Numbers</a>
+                    <p class="card-level">Level: <span class="level">Medium</span></p>
+                    <p class="card-lessons">289 lessons</p>
+                    <span class="card-more">•••</span>
+                </div>
+            </div>
+
         </div>
     </div>
 

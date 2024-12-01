@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Audios;
 use Illuminate\Http\Request;
 
 class AdminAudioController extends Controller
@@ -14,10 +13,10 @@ class AdminAudioController extends Controller
      */
     public function index()
     {
-        $audios = Audios::all();
-        return view('page.admin.index', compact('audios'));
+        $audios = Audio::all();
+        return view('admin.audios.index', compact('audios'));
     }
-    
+
 
     /**
      * Show the form for creating a new resource.
@@ -27,7 +26,6 @@ class AdminAudioController extends Controller
     public function create()
     {
         //
-        return view('page.admin.create');
     }
 
     /**
@@ -61,7 +59,6 @@ class AdminAudioController extends Controller
     public function edit($id)
     {
         //
-        return view('page.admin.edit', compact('id'));
     }
 
     /**
@@ -71,20 +68,10 @@ class AdminAudioController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Audios $audio)
+    public function update(Request $request, $id)
     {
-        $request->validate([
-            'title' => 'required|string|max:255',
-            'file_name' => 'required|string|max:255',
-            'file_path' => 'required|string|max:255',
-            'contentID' => 'required|exists:contents,id',
-        ]);
-    
-        $audio->update($request->all());
-    
-        return redirect()->route('audios.index')->with('success', 'Audio updated successfully.');
+        //
     }
-    
 
     /**
      * Remove the specified resource from storage.
@@ -92,11 +79,8 @@ class AdminAudioController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Audios $audio)
+    public function destroy($id)
     {
-        $audio->delete();
-    
-        return redirect()->route('audios.index')->with('success', 'Audio deleted successfully.');
+        //
     }
-    
 }

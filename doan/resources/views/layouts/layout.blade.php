@@ -30,7 +30,7 @@
         <div class="me-1">
           <img src="asset/dailydictation.svg" alt="Logo" />
         </div>
-        <div class="me-2"><a href="/home"><span>DailyDictation</span></a></div>
+        <div class="me-2"><span>DailyDictation</span></div>
       </div>
       <div class="navlink">
         <ul>

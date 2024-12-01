@@ -11,7 +11,7 @@
           This website contains hundreds of dictation exercises to help English
           learners practice easily and improve quickly
         </p>
-        <a href="/exercises"><button>Star Now</button></a>
+        <a href="exercises.html"><button>Star Now</button></a>
         <span
           >It's 100% FREE! <i class="fas fa-fire" style="color: red"></i>
         </span>

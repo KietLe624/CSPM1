@@ -1,8 +1,8 @@
 @extends('layouts.admin_layout')
+
 @section('content')
 <h1>Manage Audios</h1>
-<a href="/admin/create" class="btn btn-primary">Add New Audio</a>
-
+<a href="{{ route('audios.create') }}" class="btn btn-primary">Add New Audio</a>
 <table class="table">
     <thead>
         <tr>
@@ -10,18 +10,19 @@
             <th>Title</th>
             <th>File Name</th>
             <th>File Path</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach ($audios as $audio)  
+        @foreach ($audios as $audio)
         <tr>
             <td>{{ $audio->id }}</td>
             <td>{{ $audio->title }}</td>
             <td>{{ $audio->file_name }}</td>
-            <td>{{ $audio->contentsID }}</td>
+            <td>{{ $audio->file_path }}</td>
             <td>
-                <a href="{{ route('page.admin.edit', $audio) }}" class="btn btn-warning">Edit</a>
-                <form action="{{ route('page.admin.destroy', $audio) }}" method="POST" style="display:inline;">
+                <a href="{{ route('audios.edit', $audio) }}" class="btn btn-warning">Edit</a>
+                <form action="{{ route('audios.destroy', $audio) }}" method="POST" style="display:inline;">
                     @csrf
                     @method('DELETE')
                     <button type="submit" class="btn btn-danger">Delete</button>
